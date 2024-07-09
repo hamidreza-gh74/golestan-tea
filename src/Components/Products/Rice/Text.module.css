@@ -1,0 +1,105 @@
+.rice {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin-top: 55px;
+
+  .titr {
+    width: 52%;
+    height: auto;
+
+    .text {
+      font-size: 20px;
+      font-weight: 700;
+      color: red;
+    }
+  }
+
+  .content {
+    width: 52%;
+    height: auto;
+    margin-top: 30px;
+    .text {
+      text-align: justify;
+      color: #818588;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 36px;
+    }
+  }
+
+  .btn {
+    width: 52%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 35px;
+    margin-bottom: 90px;
+
+    .first {
+      width: fit-content;
+      height: 41px;
+
+      .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        border: 1px solid #c8c8c8;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        color: #7a7a7a;
+        font-size: 15px;
+        padding: 12px 24px;
+        transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+
+    .second {
+      width: fit-content;
+      height: 41px;
+      .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        border: 1px solid #c8c8c8;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        color: #7a7a7a;
+        font-size: 15px;
+        padding: 12px 24px;
+        transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}

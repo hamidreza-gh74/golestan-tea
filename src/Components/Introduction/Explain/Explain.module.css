@@ -1,0 +1,86 @@
+@keyframes textanimation {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+.explain {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  animation-name: textanimation;
+  animation-duration: 2s;
+  .titr {
+    width: 680px;
+    height: 20px;
+    margin-top: 60px;
+    .text {
+      color: red;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .Fcontent {
+    width: 680px;
+    height: 180px;
+    margin-top: 30px;
+    .text {
+      color: #7a7a7a;
+      font-size: 16px;
+      font-weight: 100;
+      line-height: 36px;
+      .red {
+        color: red;
+      }
+    }
+  }
+
+  .Scontent {
+    width: 680px;
+    height: 108px;
+    margin-top: 40px;
+    .text {
+      color: #7a7a7a;
+      font-size: 16px;
+      font-weight: 100;
+      line-height: 36px;
+      .red {
+        color: red;
+      }
+    }
+  }
+
+  .THcontent {
+    width: 680px;
+    height: 105px;
+    margin: 30px 0px;
+
+    .text {
+      color: #7a7a7a;
+      font-size: 16px;
+      font-weight: 100;
+      line-height: 35px;
+
+      .red {
+        color: red;
+
+      }
+    }
+  }
+}

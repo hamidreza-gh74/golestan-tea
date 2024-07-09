@@ -1,0 +1,85 @@
+.social {
+  .gray {
+    width: 100%;
+    height: 100px;
+    background-color: #eeefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo {
+      width: 70%;
+      height: 55px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .pic {
+        width: 60px;
+        height: 60px;
+
+        .link {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .red{
+    width: 100%;
+    height: 25px;
+    background-color:#ed1c24 ;
+  }
+}
+
+#gl:hover {
+  background: url(../../../../public/image/footer/logo/golestan_colorfull.png);
+  transition: all 0.4s linear ;
+  -webkit-transition: all 0.4s linear ;
+  -moz-transition: all 0.4s linear ;
+  -ms-transition: all 0.4s linear ;
+  -o-transition: all 0.4s linear ;
+}
+#ap:hover {
+  background: url(../../../../public/image/footer/logo/aparat_colorfull.png);
+  transition: all 0.4s linear ;
+  -webkit-transition: all 0.4s linear ;
+  -moz-transition: all 0.4s linear ;
+  -ms-transition: all 0.4s linear ;
+  -o-transition: all 0.4s linear ;
+}
+
+#tg:hover {
+  background: url(../../../../public/image/footer/logo/telegram_colorfull.png);
+  transition: all 0.4s linear ;
+  -webkit-transition: all 0.4s linear ;
+  -moz-transition: all 0.4s linear ;
+  -ms-transition: all 0.4s linear ;
+  -o-transition: all 0.4s linear ;
+}
+#inst:hover {
+  background: url(../../../../public/image/footer/logo/insta-colorfull.png);
+  transition: all 0.4s linear ;
+  -webkit-transition: all 0.4s linear ;
+  -moz-transition: all 0.4s linear ;
+  -ms-transition: all 0.4s linear ;
+  -o-transition: all 0.4s linear ;
+}
+#ld:hover {
+  background: url(../../../../public/image/footer/logo/linkd_colorfull.png);
+  transition: all 0.4s linear ;
+  -webkit-transition: all 0.4s linear ;
+  -moz-transition: all 0.4s linear ;
+  -ms-transition: all 0.4s linear ;
+  -o-transition: all 0.4s linear ;
+}
+#fb:hover {
+  background: url(../../../../public/image/footer/logo/facebook_colorfull.png);
+  transition: all 0.4s linear ;
+  -webkit-transition: all 0.4s linear ;
+  -moz-transition: all 0.4s linear ;
+  -ms-transition: all 0.4s linear ;
+  -o-transition: all 0.4s linear ;
+}

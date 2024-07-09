@@ -1,0 +1,44 @@
+.sub {
+  width: 230px;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+
+  .nav {
+    width: 100%;
+
+    .list {
+      width: 100%;
+      height: inherit;
+      background-color: #272727;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      .item {
+        width: inherit;
+        height: inherit;
+
+        .link {
+          display: block;
+          width: inherit;
+          height: inherit;
+          color: #afb2b4;
+          text-decoration: none;
+          font-size: 16px;
+          padding: 10px 15px;
+          padding-right: 25px;
+          transition: all 0.4s linear ;
+          -webkit-transition: all 0.4s linear ;
+          -moz-transition: all 0.4s linear ;
+          -ms-transition: all 0.4s linear ;
+          -o-transition: all 0.4s linear ;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
